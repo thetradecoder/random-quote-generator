@@ -1,0 +1,41 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background: url('https://res.cloudinary.com/tradecoder/image/upload/v1595831814/misc/candle-live_azx47a.gif') no-repeat top fixed;
+  background-size: cover;
+}
+
+.quote, .author{
+  padding:1rem;
+}
+.content{
+  max-width:768px;
+  margin-top:3rem;
+}
+
+
+.display-quotes{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
+  background-color: rgba(255,255,255,.8);
+  border-radius:10px 10px 0 0;
+  font-size: 1.5rem;
+  max-width:768px;
+  min-height:200px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.buttons{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  color:white;
+}
+#quote, #tweet{
+  width: 50%;
+  border-radius: 0 0 10px 10px;
+}
